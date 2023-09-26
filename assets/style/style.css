@@ -83,14 +83,13 @@ nav .nav-right{ justify-content: right; }
 	opacity: .2;
 	mix-blend-mode: soft-light;
 	z-index: 1;
+  margin: 0 auto;
 }
 
 .content-1 .circle-1{
 	position: absolute;
 	width: 670px;
 	height: 614.12px;
-	left: 305px;
-	top: 45.4px;
 	border: 34px solid #000;
 }
 
@@ -98,8 +97,6 @@ nav .nav-right{ justify-content: right; }
 	position: absolute;
 	width: 890px;
 	height: 815.77px;
-	left: 195px;
-	top: -55.43px;
 	border: 14px solid #000000
 }
 
@@ -107,8 +104,6 @@ nav .nav-right{ justify-content: right; }
 	position: absolute;
 	width: 1175px;
 	height: 1077px;
-	left: 54px;
-	top: -203px;
 	border: 56px solid #000000;
 }
 
@@ -801,6 +796,8 @@ footer hr, span.copyright{
 
 	.content-1{
 		clip-path: none;
+    width: 100vw;
+    height: 100vh;
 	}
 
 	.content-1 .logo img{
